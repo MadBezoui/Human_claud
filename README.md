@@ -1,33 +1,33 @@
 # Human_claud
 
-Un skill pour Claude Code qui aide à écrire des textes et des designs sans les marques typiques de l'IA : tirets cadratins, point-virgules, titres en majuscules partout, deux-points dans les titres, vocabulaire générique, listes à puces partout, couleurs délavées.
+A Claude Code skill for writing text and designs without the usual signs of AI generation: em dashes, semicolons, title case headings, colons in titles, generic vocabulary, bullet lists everywhere, washed-out colors.
 
-Le skill couvre les réponses dans le chat, les articles, les rapports, les emails, les slides et les pages web.
+The skill applies to chat replies, articles, reports, emails, slides and web pages.
 
-## Ce qu'il évite
+## What it avoids
 
-- La ponctuation : pas de `—`, `--`, `---` ni `;`.
-- Les titres : casse de phrase, pas de deux-points, peu de titres.
-- Le vocabulaire IA en français et en anglais (*delve*, *tapestry*, *au cœur de*, *force est de constater*…).
-- Les structures de chatbot : ouverture « Bien sûr ! », conclusion « N'hésitez pas à… », triades réflexes.
-- Les sections et sous-sections inutiles, les listes à puces à chaque paragraphe.
-- Les couleurs pâles et les polices peu lisibles. La police par défaut est Avenir, sauf si une revue ou un template impose autre chose.
+- Punctuation: no em dashes, no double hyphens, no triple hyphens, no semicolons.
+- Headings: sentence case, no colons, few headings.
+- AI vocabulary in English and French (*delve*, *tapestry*, *au cœur de*, *force est de constater*, and similar).
+- Chatbot habits: openers like "Certainly!", closers like "Feel free to ask", reflexive lists of three.
+- Unnecessary sections and subsections, and a bullet list under every paragraph.
+- Pale colors and hard-to-read fonts. The default font is Avenir, unless a journal or template requires another.
 
 ## Installation
 
-Copie le fichier `SKILL.md` dans un dossier `Human_claud` de tes skills Claude Code :
+Copy `SKILL.md` into a `Human_claud` folder in your Claude Code skills directory:
 
 ```bash
 mkdir -p ~/.claude/skills/Human_claud
 curl -o ~/.claude/skills/Human_claud/SKILL.md https://raw.githubusercontent.com/MadBezoui/Human_claud/main/SKILL.md
 ```
 
-Relance Claude Code ou ouvre une nouvelle session. Le skill se charge quand tu demandes un texte ou un design.
+Restart Claude Code or open a new session. The skill loads when you ask for a text or a design.
 
-## Limites
+## Limits
 
-Le skill ne cherche pas à tromper un détecteur d'IA. Son but est un texte naturel et lisible. Il ne retire pas les informations ni les nuances : seule la forme change.
+The skill does not try to fool AI detectors. Its goal is natural, readable writing. It does not remove information or nuance: only the form changes.
 
-## Licence
+## License
 
-Usage libre. Ajoute une licence si tu veux préciser les conditions de réutilisation.
+Free to use. Add a license if you want to set conditions for reuse.
