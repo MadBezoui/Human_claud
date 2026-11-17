@@ -30,4 +30,4 @@ The skill does not try to fool AI detectors. Its goal is natural, readable writi
 
 ## License
 
-Free to use. Add a license if you want to set conditions for reuse.
+Free to use.
